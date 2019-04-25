@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'navHead',
+  name: 'Location', // 出行目的地
   data() {
     return {
 
