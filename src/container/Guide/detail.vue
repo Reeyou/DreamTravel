@@ -1,20 +1,16 @@
 <template>
-  <nvHead />
+
 
 </template>
 
 <script>
-import nvHead from '../../components/nav/header'
 export default {
-  name: 'Home', // 首页
+  name: 'guideDetail', // 攻略详情
   data() {
     return {
 
     }
   },
-  components: {
-    nvHead
-  }
 }
 </script>
 
