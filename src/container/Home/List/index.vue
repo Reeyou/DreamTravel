@@ -30,13 +30,14 @@
       </ul>
     </div>
     <div class="pageSize">
-
+      <PageSize />
     </div>
   </div>
 
 </template>
 
 <script>
+import PageSize from '../../../components/pageSize'
 export default {
   name: 'list',
   data() {
@@ -44,6 +45,9 @@ export default {
       location: '宁乡',
     }
   },
+  components: {
+    PageSize
+  }
 }
 </script>
 

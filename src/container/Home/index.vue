@@ -2,12 +2,20 @@
   <div>
     <nvHead />
     <Banner />
+    <div class='container'>
+      <List />
+      <Side />
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import nvHead from '../../components/nav/header'
-import Banner from '../../components/Banner'
+import Footer from '../../components/nav/footer'
+import Banner from './Banner'
+import List from './List'
+import Side from './Side'
 export default {
   name: 'Home', // 首页
   data() {
@@ -17,7 +25,10 @@ export default {
   },
   components: {
     nvHead,
-    Banner
+    Banner,
+    List,
+    Side,
+    Footer
   }
 }
 </script>
