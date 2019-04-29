@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/container/Home'
+// import Home from '@/components/Banner'
 
 Vue.use(Router)
 

@@ -1,10 +1,13 @@
 <template>
-  <nvHead />
-
+  <div>
+    <nvHead />
+    <Banner />
+  </div>
 </template>
 
 <script>
 import nvHead from '../../components/nav/header'
+import Banner from '../../components/Banner'
 export default {
   name: 'Home', // 首页
   data() {
@@ -13,7 +16,8 @@ export default {
     }
   },
   components: {
-    nvHead
+    nvHead,
+    Banner
   }
 }
 </script>

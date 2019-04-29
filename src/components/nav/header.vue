@@ -67,7 +67,7 @@ export default {
             font-size: 16px;
             text-align: center;
             a {
-              color: #000;
+              color: @Black;
             }
             &:hover {
               cursor: pointer;
@@ -102,12 +102,12 @@ export default {
             border: 1px solid @lightGreen;
             transition: all 400ms ease;
             a {
-              color: #000;
+              color: @BlackRgb;
             }
             &:hover {
-              background: @lightGreen;
+              opacity: 0.88;
               a {
-                color: #fff;
+                // transform: scale(1.2)
               }
             }
           }
@@ -118,7 +118,7 @@ export default {
               color: #fff;
             }
             &:hover {
-              opacity: 0.8;
+              opacity: 0.88;
             }
           }
         }
