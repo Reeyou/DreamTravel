@@ -21,27 +21,27 @@ export default {
     return {
       imgList: [
         {
-          url: require('../../../static/img/banner_1.jpeg'),
+          url: require('@/assets/img/banner_1.jpeg'),
           title: '金秋四月',
           desc: '迷人'
         },
         {
-          url: require('../../../static/img/banner_2.jpeg'),
+          url: require('@/assets/img/banner_2.jpeg'),
           title: '金秋四月',
           desc: '迷人'
         },
         {
-          url: require('../../../static/img/banner_3.jpeg'),
+          url: require('@/assets/img/banner_3.jpeg'),
           title: '【突然，南极】21岁，触碰世界另一端的冰冻星球',
           desc: '迷人'
         },
         {
-          url: require('../../../static/img/banner_4.jpeg'),
+          url: require('@/assets/img/banner_4.jpeg'),
           title: '金秋四月',
           desc: '迷人'
         },
         {
-          url: require('../../../static/img/banner_5.jpeg'),
+          url: require('@/assets/img/banner_5.jpeg'),
           title: '金秋四月',
           desc: '迷人'
         }
